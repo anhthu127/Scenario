@@ -1,6 +1,4 @@
-Feature: Feature name
-
-   Feature Description
+Feature:  
 
 Là Người mua tôi chỉ muốn xem Bất động sản đã được kiểm duyệt chính xác thông tin (Sẵn sàng trả tiền)
 Scenario: The properties are tested by professionals.

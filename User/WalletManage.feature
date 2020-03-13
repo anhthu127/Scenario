@@ -8,6 +8,7 @@
         Then: i should see recharge methods.
         When: I click on a recharge methods.
         Then: I should see a form to enter a wallet account.
+        
         When
 
     Bị mắc ở đây

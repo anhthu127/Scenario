@@ -9,6 +9,14 @@ Scenario: Category of Postings
 Given: I logged my account
 And: My wallet account still has money.
 When: I click on “Đăng tin nhà đất”.
-Then: I should see the checkbox as “tin thường”, “tin vip”, “tin siêu vip”.
-And: thấy số tiền cần trả cho khoảng thời gian muốn duy trì loại tin đã chọn.
+Then: I should see the checkbox with data
+| vip_package|
+| <category_id> |
+And: I should see the money to be paid for the display period time.
 
+Examples:
+| vip_package |
+| VIP 1 |
+| VIP 2 |
+| VIP 3 |
+| Tin Thường |

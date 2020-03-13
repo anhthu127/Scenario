@@ -1,6 +1,4 @@
-Feature: Feature name
-
-   Feature Description
+Feature:  
 
 Là người dùng tôi muốn được gợi ý các tin rao trong cùng khu vực với tin tôi đang xem.
 

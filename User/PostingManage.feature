@@ -6,7 +6,9 @@ Feature: Feature name
     Scenario: Comment under the posting
         Given: I logged into my account
         And: I choose a posting.
-        When: I enter the under input.
+        When: I enter the under input with data
+        | comment |
+        | sản phẩm tốt |
         And: I click on  “Đăng”.
         Then: I should see this input cannot be enabled, and my comment displayed in this input.
 
